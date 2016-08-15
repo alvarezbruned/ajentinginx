@@ -47,5 +47,5 @@ RUN php5dismod xdebug
 COPY ./src/startup.sh /root/startup.sh
 RUN chmod +x /root/startup.sh
 
-EXPOSE 80 8000 443 8443
+EXPOSE 80 8000 443
 CMD sh /root/startup.sh
